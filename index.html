@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<body>
+    <!-- header -->
+    <header >
+    <!--navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <img src="/images/logo.png" alt="">
+
+                <!-- Button trigger modal -->
+                <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
+                    Launch demo modal
+                </button> -->
+           
+
+
+
+            <!-- <button class="navbar-toggler" id="basicExampleModal" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            Signup Modal 
+            
+            
+
+
+                 modal ends here -->
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ml-auto">
+                            <li class="nav-item">
+                            <a class="nav-link ml-auto" href="#">Login</a>
+                            </li>
+                        </li>
+                    </ul>
+                    <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#basicExampleModal">
+                            Signup
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="signup-modal">
+                            <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="container" id="wrap">
+                                    <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <form action="r" method="post" accept-charset="utf-8" class="form" role="form">   <legend>Sign Up</legend>
+                                                <h4>It's free and always will be.</h4>
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-md-6">
+                                                        <input type="text" name="firstname" value="" class="form-control input-lg" placeholder="First Name"  />                        </div>
+                                                    <div class="col-xs-6 col-md-6">
+                                                        <input type="text" name="lastname" value="" class="form-control input-lg" placeholder="Last Name"  />                        </div>
+                                                </div>
+                                                <input type="text" name="email" value="" class="form-control input-lg" placeholder="Your Email"  /><input type="password" name="password" value="" class="form-control input-lg" placeholder="Password"  /><input type="password" name="confirm_password" value="" class="form-control input-lg" placeholder="Confirm Password"  />                    <label>Birth Date</label>                    <div class="row">
+                                                    <div class="col-xs-4 col-md-4">
+                                                        <select name="month" class = "form-control input-lg">
+                                                            <option value="01">Jan</option>
+                                                            <option value="02">Feb</option>
+                                                            <option value="03">Mar</option>
+                                                            <option value="04">Apr</option>
+                                                            <option value="05">May</option>
+                                                            <option value="06">Jun</option>
+                                                            <option value="07">Jul</option>
+                                                            <option value="08">Aug</option>
+                                                            <option value="09">Sep</option>
+                                                            <option value="10">Oct</option>
+                                                            <option value="11">Nov</option>
+                                                            <option value="12">Dec</option>
+                                                            </select>                        </div>
+                                                    <div class="col-xs-4 col-md-4">
+                                                            <select name="day" class = "form-control input-lg">
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                            <option value="13">13</option>
+                                                            <option value="14">14</option>
+                                                            <option value="15">15</option>
+                                                            <option value="16">16</option>
+                                                            <option value="17">17</option>
+                                                            <option value="18">18</option>
+                                                            <option value="19">19</option>
+                                                            <option value="20">20</option>
+                                                            <option value="21">21</option>
+                                                            <option value="22">22</option>
+                                                            <option value="23">23</option>
+                                                            <option value="24">24</option>
+                                                            <option value="25">25</option>
+                                                            <option value="26">26</option>
+                                                            <option value="27">27</option>
+                                                            <option value="28">28</option>
+                                                            <option value="29">29</option>
+                                                            <option value="30">30</option>
+                                                            <option value="31">31</option>
+                                                            </select>                       
+                                                        </div>
+                                                        <div class="col-xs-4 col-md-4">
+                                                        <select name="year" class = "form-control input-lg">
+                                                    <option value="1935">1935</option>
+                                                    <option value="1936">1936</option>
+                                                    <option value="1937">1937</option>
+                                                    <option value="1938">1938</option>
+                                                    <option value="1939">1939</option>
+                                                    <option value="1940">1940</option>
+                                                    <option value="1941">1941</option>
+                                                    <option value="1942">1942</option>
+                                                    <option value="1943">1943</option>
+                                                    <option value="1944">1944</option>
+                                                    <option value="1945">1945</option>
+                                                    <option value="1946">1946</option>
+                                                    <option value="1947">1947</option>
+                                                    <option value="1948">1948</option>
+                                                    <option value="1949">1949</option>
+                                                    <option value="1950">1950</option>
+                                                    <option value="1951">1951</option>
+                                                    <option value="1952">1952</option>
+                                                    <option value="1953">1953</option>
+                                                    <option value="1954">1954</option>
+                                                    <option value="1955">1955</option>
+                                                    <option value="1956">1956</option>
+                                                    <option value="1957">1957</option>
+                                                    <option value="1958">1958</option>
+                                                    <option value="1959">1959</option>
+                                                    <option value="1960">1960</option>
+                                                    <option value="1961">1961</option>
+                                                    <option value="1962">1962</option>
+                                                    <option value="1963">1963</option>
+                                                    <option value="1964">1964</option>
+                                                    <option value="1965">1965</option>
+                                                    <option value="1966">1966</option>
+                                                    <option value="1967">1967</option>
+                                                    <option value="1968">1968</option>
+                                                    <option value="1969">1969</option>
+                                                    <option value="1970">1970</option>
+                                                    <option value="1971">1971</option>
+                                                    <option value="1972">1972</option>
+                                                    <option value="1973">1973</option>
+                                                    <option value="1974">1974</option>
+                                                    <option value="1975">1975</option>
+                                                    <option value="1976">1976</option>
+                                                    <option value="1977">1977</option>
+                                                    <option value="1978">1978</option>
+                                                    <option value="1979">1979</option>
+                                                    <option value="1980">1980</option>
+                                                    <option value="1981">1981</option>
+                                                    <option value="1982">1982</option>
+                                                    <option value="1983">1983</option>
+                                                    <option value="1984">1984</option>
+                                                    <option value="1985">1985</option>
+                                                    <option value="1986">1986</option>
+                                                    <option value="1987">1987</option>
+                                                    <option value="1988">1988</option>
+                                                    <option value="1989">1989</option>
+                                                    <option value="1990">1990</option>
+                                                    <option value="1991">1991</option>
+                                                    <option value="1992">1992</option>
+                                                    <option value="1993">1993</option>
+                                                    <option value="1994">1994</option>
+                                                    <option value="1995">1995</option>
+                                                    <option value="1996">1996</option>
+                                                    <option value="1997">1997</option>
+                                                    <option value="1998">1998</option>
+                                                    <option value="1999">1999</option>
+                                                    <option value="2000">2000</option>
+                                                    <option value="2001">2001</option>
+                                                    <option value="2002">2002</option>
+                                                    <option value="2003">2003</option>
+                                                    <option value="2004">2004</option>
+                                                    <option value="2005">2005</option>
+                                                    <option value="2006">2006</option>
+                                                    <option value="2007">2007</option>
+                                                    <option value="2008">2008</option>
+                                                    <option value="2009">2009</option>
+                                                    <option value="2010">2010</option>
+                                                    <option value="2011">2011</option>
+                                                    <option value="2012">2012</option>
+                                                    <option value="2013">2013</option>
+                                                    </select>                        </div>
+                                                </div>
+                                                <label>Gender : </label>                    <label class="radio-inline">
+                                                    <input type="radio" name="gender" value="M" id=male />                        Male
+                                                </label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="gender" value="F" id=female />                        Female
+                                                </label>
+                                                <br />
+                                            <span class="help-block">By clicking Create my account, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.</span>
+                                                <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit">
+                                      Create my account</button>
+                                    </form>          
+                        </div>
+                        </div>            
+                        </div>
+                        </div>
+                        </div>
+            </div>
+
+                        </div>
+                         <!--models end here  -->
+                </div>
+  
+            </div>
+        </nav>
+
+    </div>
+    </header>
+
+    
+
+    <!-- main section -->
+    <main class="Main-section" >
+    <div class="container py-5 z-depth-1">
+        <section class="text-center px-md-5 mx-md-5 dark-grey-text">
+            <div class="row mb-5">
+                <div class="col-md-6 mx-auto main-image">
+                <div class="view pb-2 mt-5">
+                    <img src="/images/education.svg" class="img-fluid" alt="Education image">
+                </div>
+                </div>
+            </div>
+           
+            <h1 class="font-weight-bold mb-4 pb-2">Learn in-demand tech skills in half the time</h1>
+            
+            <p class="text-center mx-auto mb-4 pb-2">The Beaconhouse School System has risen from its modest beginnings in 1975 as Les Anges Montessori Academy to become a major force in the education world. With an ever-expanding base, already established in the UK, Malaysia, the Philippines, Pakistan, the UAE, Oman, Belgium and Thailand, Beaconhouse is one of the largest private school networks in the world.</p>
+            
+            <button type="button" class="btn btn-deep-purple btn-rounded">Explore Courses & Paths</button>
+         
+        </section>
+      </div>
+    </main>
+
+    <!-- clients -->
+    <div class="my-client">
+        <div class="container z-depth-1">
+            <section class="px-md-5 mx-md-5 text-center dark-grey-text">
+              <div class="row /* d-flex justify-content-center */">
+                <div class="col-md-10 col-md-8 mx-auto">
+                  <p class="mb-4 font-weight-bold">Trusted by 500,000 learners working in companies like
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+                      <img src="https://mdbootstrap.com/img/logo/brands/nike.png" class="img-fluid" alt="Nike - logo"
+                        style="max-height: 40px">
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+                      <img src="https://mdbootstrap.com/img/logo/brands/amazon.png" class="img-fluid" alt="Amazon - logo"
+                        style="max-height: 40px">
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+                      <img src="https://mdbootstrap.com/img/logo/brands/sony.png" class="img-fluid" alt="Sony - logo"
+                        style="max-height: 40px">
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+                      <img src="https://mdbootstrap.com/img/logo/brands/samsung.png" class="img-fluid" alt="Samsung - logo"
+                        style="max-height: 40px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+    </div>
+        
+          <!-- My Team -->
+          <div class="my-team">
+            <div class="container">
+                <section class="team-section text-center">
+                <h2 class="font-weight-bold pb-5 mb-5">Our Amazing Team</h2>
+            
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="avatar mx-auto">
+                        <img src="/images/abdurrehman.jpg" class="rounded-circle z-depth-1"
+                        alt="Abdur Rehman">
+                    </div>
+                    <h5 class="font-weight-bold mt-4 mb-3">Abdur Rehman</h5>
+                    <p class="text-uppercase"><strong>Professor</strong></p>
+                    <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                        adipisci sed quia non numquam modi tempora eius.</p>
+                    <ul class="list-unstyled mb-0">
+                    </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="avatar mx-auto">
+                        <img src="/images/hamza.jpg" class="rounded-circle z-depth-1"
+                        alt="Sample avatar">
+                    </div>
+                    <h5 class="font-weight-bold mt-4 mb-3">Hamza Khatana</h5>
+                    <p class="text-uppercase dark-text"><strong>Physics Teacher</strong></p>
+                    <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium
+                        doloremque rem laudantium totam aperiam.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="avatar mx-auto">
+                        <img src="/images/sajid.jpg" class="rounded-circle z-depth-1"
+                        alt="Sample avatar">
+                    </div>
+                    <h5 class="font-weight-bold mt-4 mb-3">Sajid Kamal</h5>
+                    <p class="text-uppercase dark-text"><strong>Computer Teacher</strong></p>
+                    <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim est fugiat nulla id eu laborum.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="avatar mx-auto">
+                        <img src="images/hadeed.jpg" class="rounded-circle z-depth-1"
+                        alt="Sample avatar">
+                    </div>
+                    <h5 class="font-weight-bold mt-4 mb-3">Hadeed</h5>
+                    <p class="text-uppercase Dark-text"><strong>Islamiat Teacher</strong></p>
+                    <p class="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur
+                        totam officia voluptates perferendis voluptatibus aut.</p>
+                    </div>>
+                </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Road Map -->
+        <div class="road-map">
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3" >
+                        <h1>Education Road Map</h1>
+                        <ul class="timeline mt-5">
+                            <li>
+                                <a target="_blank" href="#">Personalizing Education </a>
+                                <a href="#" class="float-right">15 March, 2021</a>
+                                <p>We suggest that in the next few decades education will be personalized to harmonize with each student’s traits, for example, personality, learning style, and states, such as, affect,and level of engagement. Computational tools will understand an individual’s strengths, weaknesses, challenges and motiva-tional style as might a human tutor.</p>
+                            </li>
+                            <li>
+                                <a href="#"> Assessing Student Learning </a>
+                                <a href="#" class="float-right">15 March, 2021</a>
+                                <p>We believe that by 2030, assessment of students’ knowledge, skills, and other attributes will be seamless and ubiquitous. Assessment will be avail-able every time a student learns and will move beyond the current model of “Teach / Stop / Test.” Seamless refers to the removal of false boundar-ies between learning and assessment, and ubiquitous refers to the constant nature of assessment that will feed back results and implications into learn-ing, anywhere and anytime.</p>
+                            </li>
+                            <li>
+                                <a href="#">Diminishing Boundaries</a>
+                                <a href="#" class="float-right">14 March, 2021</a>
+                                <p>One long term goal is to re-examine, cross, mitigate and/or eliminate many of the artiﬁcial and non-productive boundaries that have been established within educational institutions, including place of study (home, work, institutions), education level (school, college, university and professional development), personal ability (special and typical students) and type of learning (formal and informal).</p>
+                            </li>
+                            <li>
+                                <a href="#">Developing Alternative Teaching Modes</a>
+                                <a href="#" class="float-right">15 March, 2021</a>
+                                <p>Education should prepare students to be citizens in the high-technology world of the 21st century where reasoning, disciplined thinking and teamwork are vital. Students will need to solve complex problems in innovative ways and think clearly about vast amounts of knowledge.  They will work across disciplinary domains in collaboration and use inquiry reasoning. Technologies that can help to develop alternative teaching modes include rich computer interfaces, intelligent environments, learning companions, teachable agents, and tools that detect and respond to student emotion.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <!-- road map ends here -->
+
+<!-- FAQs -->
+        <div class="faqs bg-light">
+            <div class="container my-5">
+                <div class="panel-group" id="accordion">
+                    <div class="faqHeader mx-auto">FAQs Related to our Institute</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">There are so many schools in the U.S. How do I decide which schools to apply to?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Research your options and define your priorities. Contact the EducationUSA advising center nearest you and browse college search engines online. Check to see if the schools your are considering are accredited.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">What’s the difference between a college and a university?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTen" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Colleges offer only undergraduate degrees while universities offer graduate degrees as well, but the terms are often used interchangeably.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">What is the difference between "Undergraduate" and "Graduate" degrees?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseEleven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Undergraduate programs follow high school and lead to an associate (two-year) degree or a bachelor (four-year) degree. Graduate programs follow a bachelor’s degree and lead to a master’s or doctoral degree.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">There are so many schools in the U.S. How do I decide which schools to apply to?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Research your options and define your priorities. Contact the EducationUSA advising center nearest you and browse college search engines online. Check to see if the schools your are considering are accredited.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">There are so many schools in the U.S. How do I decide which schools to apply to?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Research your options and define your priorities. Contact the EducationUSA advising center nearest you and browse college search engines online. Check to see if the schools your are considering are accredited.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">There are so many schools in the U.S. How do I decide which schools to apply to?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Research your options and define your priorities. Contact the EducationUSA advising center nearest you and browse college search engines online. Check to see if the schools your are considering are accredited.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- contact Us  -->
+
+        <div class="contact-us">
+            <div class="container my-5">
+              </style>
+              <section class="text-center dark-grey-text mb-5">
+            
+                <div class="card">
+                  <div class="card-body rounded-top border-top p-5">
+                    <h3 class="font-weight-bold my-4">Contact Us</h3>
+                    <p class="font-weight-light mx-auto mb-4 pb-2">Feel free to contact us</p>
+            
+                    <form class="mb-4 mx-md-5" action="">
+            
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <input type="text" id="name" class="form-control" placeholder="Name">
+            
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <input type="email" id="email" class="form-control" placeholder="Email">
+            
+                        </div>
+                      </div>
+            
+                      <div class="row">
+                        <div class="col-md-12 mb-4">
+                          <input type="text" id="subject" class="form-control" placeholder="Subject">
+            
+                        </div>
+                      </div>
+            
+                      <div class="row">
+                        <div class="col-md-12">
+            
+                          <div class="form-group mb-4">
+                            <textarea class="form-control rounded" id="message" rows="3" placeholder="How can we help?"></textarea>
+                          </div>
+            
+                          <div class="text-center">
+                            <button type="submit" class="btn btn-info btn-md">Submit</button>
+                          </div>
+            
+                        </div>
+                      </div>
+            
+                    </form>
+                    
+                  </div>
+                </div>
+            
+              </section>
+            </div>
+        </div>
+
+    <!-- footer -->
+    <section id="footer">
+		<div class="container">
+            <div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			<div class="row text-center text-white">
+				<!-- <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"> -->
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="#" target="_blank">I'm|Abdur rehman</a></p>
+				<!-- </div> -->
+				<hr>
+			</div>	
+		</div>
+	</section>
+    <!-- bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
